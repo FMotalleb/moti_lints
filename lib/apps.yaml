@@ -54,8 +54,8 @@ analyzer:
     avoid_redundant_argument_values: ignore
     package_api_docs: ignore
     constant_identifier_names: ignore
-    non_constant_identifier_names: warning
-    prefer_adjacent_string_concatenation: warning
+    non_constant_identifier_names: error
+    prefer_adjacent_string_concatenation: error
     flutter_style_todos: ignore
     one_member_abstracts: ignore
   exclude:
