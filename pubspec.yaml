@@ -1,6 +1,6 @@
 name: moti_lints
 description: Set of lint rules for dart analyzer
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/fmotalleb/moti_lints
 
 environment:
