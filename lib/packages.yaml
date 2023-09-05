@@ -5,7 +5,7 @@ analyzer:
     strict-raw-types: true
 
   errors:
-    public_member_api_docs: warning
+    public_member_api_docs: ignore
     unnecessary_statements: ignore
     always_use_package_imports: ignore
     avoid_classes_with_only_static_members: ignore
@@ -52,7 +52,7 @@ analyzer:
     unrelated_type_equality_checks: error
     do_not_use_environment: ignore
     avoid_redundant_argument_values: ignore
-    package_api_docs: warning
+    package_api_docs: ignore
     constant_identifier_names: ignore
     non_constant_identifier_names: warning
     prefer_adjacent_string_concatenation: warning
@@ -68,8 +68,8 @@ linter:
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
     - always_require_non_null_named_parameters
-    - always_specify_types
-    - always_use_package_imports
+    # - always_specify_types
+    # - always_use_package_imports
     - annotate_overrides
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
@@ -240,7 +240,7 @@ linter:
     - unnecessary_breaks
     - unnecessary_const
     - unnecessary_constructor_name
-    - unnecessary_final
+    # - unnecessary_final
     - unnecessary_getters_setters
     - unnecessary_lambdas
     - unnecessary_late
