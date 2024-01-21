@@ -1,3 +1,7 @@
+## 1.1.1
+
+* ignore avoid_unused_constructor_parameters for applications
+
 ## 1.1.0
 
 * added `apps_soft.yaml`, a less strict version for applications
