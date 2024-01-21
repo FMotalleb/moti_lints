@@ -1,7 +1,11 @@
 include: package:moti_lints/apps.yaml
+analyzer:
+  errors:
+    unused_element: ignore
 
 linter:
   rules:
     - diagnostic_describe_all_properties: false
     - use_if_null_to_convert_nulls_to_bools: false
     - prefer_relative_imports: false
+    - directives_ordering: false
