@@ -1,3 +1,11 @@
+## 1.1.2
+
+* updated readme file to point-out apps_soft is preferred for development
+* in apps_soft:
+  * ignored preferred_relative imports
+  * ignored directives_ordering imports
+  * ignored unused_element imports
+
 ## 1.1.1
 
 * ignore avoid_unused_constructor_parameters for applications
