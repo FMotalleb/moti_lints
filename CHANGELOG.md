@@ -1,3 +1,7 @@
+## 1.1.3
+
+* disabled prefer_int_literals
+
 ## 1.1.2
 
 * updated readme file to point-out apps_soft is preferred for development
