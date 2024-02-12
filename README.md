@@ -6,7 +6,7 @@ usage:
 # for applications, [preferred for production]
 include: package:moti_lints/apps.yaml
 
-# for applications (softer version: no) [preferred for development]
+# for applications (softer version) [preferred for development]
 include: package:moti_lints/apps_soft.yaml
 
 # for packages
